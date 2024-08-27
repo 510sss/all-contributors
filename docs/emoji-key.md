@@ -6,7 +6,7 @@ sidebar_label: Emoji Key ✨
 
 ## Table
 
-> To have a contribution added when using the [Bot](bot/overview) or [CLI](cli/overview) use the keyword in the `Type` column. The bot will also use [basic Natural Language Parsing](https://github.com/all-contributors/all-contributors-bot/blob/master/src/tasks/processIssueComment/utils/parse-comment/index.js) to determine your contribution intent.
+> To have a contribution added when using the [Bot](bot/overview) or [CLI](cli/overview) use the keyword in the `Type` column. The bot will also use [basic Natural Language Parsing](https://github.com/all-contributors/app/blob/master/lib/parse-comment.js) to determine your contribution intent.
 
 Emoji/Type | Represents | Comments
 :---: | :---: | :---:
@@ -30,7 +30,8 @@ Emoji/Type | Represents | Comments
 🧑‍🏫 <br /> `mentoring` | Mentoring | People who mentor new contributors, links to the repo home
 📦 <br /> `platform` | Packaging | Porting to support a new platform |
 🔌 <br /> `plugin` | Plugin/utility libraries | Links to the repo home
-📆 <br/> `projectManagement` | Project Management | |
+📆 <br /> `projectManagement` | Project Management | |
+📣 <br /> `promotion` | Promotion | |
 💬 <br /> `question` | Answering Questions | Answering Questions in Issues, Stack Overflow, Gitter, Slack, etc.
 🔬 <br /> `research` | Research | Literature review.
 👀 <br /> `review` | Reviewed Pull Requests | |
@@ -44,5 +45,6 @@ Emoji/Type | Represents | Comments
 📹 <br /> `video` | Videos | Links to the video
 
 ## What's next
+
 - [Notes for repository maintainers](repository-maintainers)
 - [Automating the process using tools](tooling)
